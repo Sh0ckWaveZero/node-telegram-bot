@@ -1,0 +1,31 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "node telegram bot for crypto",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sh0ckWaveZero/node-telegram-bot.git"
+  },
+  "keywords": [
+    "node",
+    "bot",
+    "telegram"
+  ],
+  "author": "Sh0ckWave",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sh0ckWaveZero/node-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/Sh0ckWaveZero/node-telegram-bot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-telegram-bot-api": "^0.50.0",
+    "nodemon": "^2.0.4"
+  }
+}
